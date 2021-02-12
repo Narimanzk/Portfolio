@@ -7,7 +7,7 @@ const exp = [
     title: "Web Design Company Founder",
     cardImage: "assets/images/experience-page/DevFellow_Logo.jpg",
     place: "DevFellow",
-    time: "(, 2020 - present)",
+    time: "(2020 - present)",
     desp: "<li>Worked with customers to get their requirement and deploy their desired website</li> <li>Formulated a successful business plan with a strong emphasis on growth and community needs. </li> <li>Oversaw sucessful website launch and continuing operation.</li>",
   },
   {
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "Chamedoon Customer Service",
+    title: "Chamedoon Data Manager",
     cardImage: "assets/images/experience-page/chamedoon.png",
     description:
       "Responsible for answering customers' questions and managing the data",
