@@ -4,25 +4,25 @@
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Web Design Company Founder",
+    cardImage: "assets/images/experience-page/DevFellow_Logo.jpg",
+    place: "DevFellow",
+    time: "(, 2020 - present)",
+    desp: "<li>Worked with customers to get their requirement and deploy their desired website</li> <li>Formulated a successful business plan with a strong emphasis on growth and community needs. </li> <li>Oversaw sucessful website launch and continuing operation.</li>",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "Software Developer Intern",
+    cardImage: "assets/images/experience-page/logo-prmnt-symbol.svg",
+    place: "Paramount Commerce",
+    time: "(2019 - 2020)",
+    desp: "<li>Recommended technical solutions and write technical specifications that meet business requirements and analyzed existing code to determine the functionality.</li><li>Delivered improvements and successfully migrated direct debit payment service from NET to JAVA and developed REST PI endpoints with the SQL database.</li><li>Analyzed defect metrics to ascertain trends and problem areas, developed instant debit payment service in Java and worked closely with the frontend and backend.</li><li>Estimated level of effort, time, and external dependencies for completion of various programming scenarios within 4 months paid internship.</li><li>Ensured code meets the functional intent of the requirements and seamlessly integrates with all components of the system.</li>",
   },
   {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp:"<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    title: "Peer Educator",
+    cardImage: "assets/images/experience-page/Dawson.png",
+    place: "Dawson College",
+    time: "(2016 - 2017)",
+    desp:"<li>Tutor mathematics and conduct problem-solving sessions to sharpen student's skills</li><li>Motivated student to practice mental math and simple problem-solving techniques.</li>",
   },
 ];
 
@@ -62,40 +62,22 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "GirlScript Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/1.jpg",
+    title: "Chamedoon Customer Service",
+    cardImage: "assets/images/experience-page/chamedoon.png",
     description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
+      "Responsible for answering customers' questions and managing the data",
   },
   {
-    title: "StudentCode-in 2020",
-    cardImage: "assets/images/experience-page/2.jpg",
+    title: "McGill University Peer Tutoring",
+    cardImage: "assets/images/experience-page/mcgill.png",
     description:
-      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
+      "Responsible for teaching calculus and basic programming to first year students",
   },
   {
-    title: "PClub Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/3.jpg",
+    title: "Dawson College Problem Solving",
+    cardImage: "assets/images/experience-page/dawsond.png",
     description:
-      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
-  },
-  {
-    title: "Hakin-Codes",
-    cardImage: "assets/images/experience-page/4.jpg",
-    description:
-      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
-  },
-  {
-    title: "30 DaysofFlutter",
-    cardImage: "assets/images/experience-page/5.jpg",
-    description:
-      "Helping beginners from their first steps in Flutter to building fully functional cross-platform applications.",
-  },
-  {
-    title: "Garuda Hacks",
-    cardImage: "assets/images/experience-page/6.jpg",
-    description:
-      "MLH sponsored Indonesia's premier Global Virtual Hackathon on 14 - 16th August 2020.",
+      "Responsible for holding problem solving sessions for mathematics and physics.",
   },
 ];
 
@@ -119,45 +101,45 @@ document.addEventListener("DOMContentLoaded", showCards);
 // Mentorship Card
 
 
-const mentorshipcards = document.querySelector(".mentorship-cards");
-const mentor = [
-  {
-    title: "HakinCode",
-    image: "assets/images/experience-page/hakin.png",
-    time: "06/2020 - 08/2020",
-    desp: "<li>It is an open source community where students and mentors can apply.</li><hr /><li>Ample amount of technologies and projects are there and we are given opportunity to work on them according to our interest and knowledge.</li>",
-  },
-  {
-    title: "Google Summer of Code",
-    image: "assets/images/experience-page/gsoc.png",
-    time: "03/2020 - 08/2020",
-    desp: "<li>Google Summer of Code is a global program focused on introducing students to open source software development.</li><hr /><li>It is a great platform to explore new areas, maybe discover a new career path!</li>",
-  },
-];
+// const mentorshipcards = document.querySelector(".mentorship-cards");
+// const mentor = [
+//   {
+//     title: "HakinCode",
+//     image: "assets/images/experience-page/hakin.png",
+//     time: "06/2020 - 08/2020",
+//     desp: "<li>It is an open source community where students and mentors can apply.</li><hr /><li>Ample amount of technologies and projects are there and we are given opportunity to work on them according to our interest and knowledge.</li>",
+//   },
+//   {
+//     title: "Google Summer of Code",
+//     image: "assets/images/experience-page/gsoc.png",
+//     time: "03/2020 - 08/2020",
+//     desp: "<li>Google Summer of Code is a global program focused on introducing students to open source software development.</li><hr /><li>It is a great platform to explore new areas, maybe discover a new career path!</li>",
+//   },
+// ];
 
-const showCards3 = () => {
-  let output = "";
-  mentor.forEach(
-    ({ title, image, time, desp}) =>
-      (output += `        
-      <div class="column mentorshipCard"> 
-      <div class="card card2 mentorshipCardCover">
-        <img src="${image}" class="card-img-top" alt="..."  width="64" height="300">
-        <div class="information">
-        <div class="card-body">
-          <h5 class="card-title">${title}</h5>
-          <p class=""sub-title">${time}</p>
-        </div>
-        <div class="more-information">
-        <ul class="list-group list-group-flush p-0 right-aligned">
-          <div class="list-group-item card2 disclaimer">${desp}</div>
-        </ul>
-        </div>
-        </div>
-      </div>
-      </div>
-      `)
-  );
-  mentorshipcards.innerHTML = output;
-};
-document.addEventListener("DOMContentLoaded", showCards3);
+// const showCards3 = () => {
+//   let output = "";
+//   mentor.forEach(
+//     ({ title, image, time, desp}) =>
+//       (output += `        
+//       <div class="column mentorshipCard"> 
+//       <div class="card card2 mentorshipCardCover">
+//         <img src="${image}" class="card-img-top" alt="..."  width="64" height="300">
+//         <div class="information">
+//         <div class="card-body">
+//           <h5 class="card-title">${title}</h5>
+//           <p class=""sub-title">${time}</p>
+//         </div>
+//         <div class="more-information">
+//         <ul class="list-group list-group-flush p-0 right-aligned">
+//           <div class="list-group-item card2 disclaimer">${desp}</div>
+//         </ul>
+//         </div>
+//         </div>
+//       </div>
+//       </div>
+//       `)
+//   );
+//   mentorshipcards.innerHTML = output;
+// };
+// document.addEventListener("DOMContentLoaded", showCards3);
